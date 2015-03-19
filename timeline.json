@@ -1,8 +1,0 @@
-
-
-{
-"timeline": [
-  { "autor":"Danny", "avatar":"imagenes/gonzalo.jpg", "titulo":"Universidad", "contenido":"Hablamos del trabajo el Martes.", "fecha":"18/03/2014" },
-  { "autor":"Jose Antonio", "avatar":"imagenes/robin.jpg", "titulo":"Fiesta", "contenido":"La fiesta es el sábado en la noche", "fecha":"20/03/2014" }
-]
-}
