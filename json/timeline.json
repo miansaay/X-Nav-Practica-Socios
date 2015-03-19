@@ -1,0 +1,10 @@
+{
+"timeline": [
+  { "autor":"Danny Jimenez", "avatar":"imagenes/Danny.jpg", "titulo":"Trabajo", "contenido":"Nos reunimos el Martes para hablar del trabajo.", "fecha":"18/03/2014" },
+  { "autor":"Jose Antonio", "avatar":"imagenes/JoseA.gif", "titulo":"Fiesta", "contenido":"La fiesta es el sábado en la noche.", "fecha":"20/03/2014" },
+  { "autor":"Aitor", "avatar":"imagenes/Aitor.gif", "titulo":"Salida", "contenido":"Te espero el Domingo para var un voltio por Madrid.", "fecha":"20/03/2014" },
+  { "autor":"Antonio Ramón", "avatar":"imagenes/AntonioR.png", "titulo":"Tutoría", "contenido":"Vamos a la tutoría de Terminales?.", "fecha":"22/03/2014" },
+{ "autor":"Daniel Martin", "avatar":"imagenes/Dani.jpeg", "titulo":"Ping-pong", "contenido":"Echamos una partida de ping-pong?. Recuerda sólo estoy disponible el Sábado por la mañana.", "fecha":"23/03/2014" }
+  
+]
+}

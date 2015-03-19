@@ -1,0 +1,7 @@
+{
+"update": [
+  { "autor":"Dani", "avatar":"imagenes/Dani.jpeg", "titulo":"PDACOM", "contenido":"Quedamos el Jueves para estudiar PDA?", "fecha":"25/03/2014" },
+{ "autor":"Jose Antonio", "avatar":"imagenes/JoseA.gif", "titulo":"Zelda", "contenido":"Te apetece un vicio al Zelda?", "fecha":"26/03/2014" },
+{ "autor":"Aitor", "avatar":"imagenes/Aitor.gif", "titulo":"Concierto", "contenido":"Hola colega, el Sábado por la noche voy a realizar un concierto, te apuntas?, las entradas te las consigo yo", "fecha":"27/03/2014" }
+]
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Socios</title>
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/socios.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" rel="stylesheet">
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" rel="stylesheet">-->
+     <link rel="stylesheet" type="text/css" href="css/socios.css" title="style" />
+</head>
+
+<body>
+   
+
+   <nav class="navbar navbar-fixed-top navbar-inverse">  
+     <div class="navbar-header">
+        <div id="navbar" class="navbar-collapse collapse">
+         <h1>Socios</h1>
+       </div>
+      </div> 
+   </nav>
+
+ <div class="container">
+
+   <div class="col-md-3">
+   
+   <div id="menu">
+
+   <div id="principal">
+     
+     <h2>Miguel Ángel Sainz Ayuso</h2>
+     <img  id='perfil' src="imagenes/Perfil.jpg" class="img-responsive"></img>
+   </div>
+	  <li>
+	    <a href="#"> Favoritos </a>
+	    <ul>
+	      <li><a href="#"> Noticias </a></li>
+	      <li><a href="#"> Mensajes </a></li>
+	      <li><a href="#"> Eventos </a></li>
+	      <li><a href="#"> Fotos </a></li>
+	      <li><a href="#"> Buscar amigos </a></li>
+	    </ul>
+	  </li>
+
+	  <li>
+	    <a href="#"> Páginas </a>
+	    <ul>
+	      <li><a href="#"> Noticias de páginas </a></li>
+	      <li><a href="#"> Descubrir páginas </a></li>
+	      <li><a href="#"> Crear una página </a></li>
+	    </ul>
+	  </li>
+
+	  <li>
+	    <a href="#"> Grupos </a>
+	    <ul>
+	      <li><a href="#"> Zona Madrid </a></li>
+	      <li><a href="#"> Universidad </a></li>
+	      <li><a href="#"> Familia </a></li>
+	    </ul>
+	  </li>
+
+	  <li>
+	    <a href="#"> Noticias </a>
+	    <ul>
+	      <li><a href="#"> Deportes </a></li>
+	      <li><a href="#"> Economía </a></li>
+	      <li><a href="#"> Naturaleza </a></li>
+	    </ul>
+	  </li>
+	</div>
+ <!-- Datepicker -->
+ <div id="datepicker"></div>
+ </div>
+   
+  
+  <div class="col-md-3">
+      <!-- Tabs -->
+      <div id="tabs">
+       <ul>
+        <li><a href="#Timeline"><span>timeline</span></a></li>
+        <li><a href="#myline"><span>myline</span></a></li>
+       </ul>
+         <div id="Timeline">
+	          <p> Mensajes nuevos: <span id="newmsg">0</span></p>
+	          <button id="vermsg">Ver mensajes</button><br></br>
+         <div id="timeline">
+         </div>
+	     </div>
+      <div id="myline">
+      </div>
+   </div>
+ </div>
+ <div class="col-md-3">
+      <!-- Tabs -->
+      <div id="info">
+       <h2>Información</h2> 
+       <div id="parts">
+	        <p><a href="http://www.urjc.es/">Estudia en Universidad Rey Juan Carlos</a></p>
+	        <p><a href="http://www.indracompany.com/">Ha tarbajado en Indra</a></p>
+       </div>
+       <h2>Juegos</h2> 
+         <p> Candy Chrus Saga </p>
+         <p> Pets rescue Saga </p>
+       <h2>Libros</h2> 
+         <p> Juego de Tronos: Tormenta de espadas</p>
+         <p> JUego de Tronos: Danza de Dragones</p>
+       <h2>Películas</h2> 
+         <p> Los vengadores: La era de Ultrón</p>
+         <p> Los Juegos del Hambre: Sinsajo parte 1</p>
+      </div>
+      </div>
+
+ </div>
+
+ </div>
+ <div id="footer">Copyright &copy; miansaay 2015</div>
+</body>

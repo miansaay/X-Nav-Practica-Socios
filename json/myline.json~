@@ -1,0 +1,7 @@
+{
+"myline": [
+  { "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Cita médico", "contenido":"La cita es en la mañana a las 9am.", "fecha":"17/03/2014"},
+  { "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Series", "contenido":"Hoy enpieza una nueva temporada de Arrow.", "fecha":"13/03/2014" },
+  { "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Cine", "contenido":"¿Quedamos para ir al cine?kjfldsjllkfsdjlkdsfkfjksdkjdfskjdjsfjksfdkksjdfkhjkhkhkjhkjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkdfs.", "fecha":"21/03/2014" }
+]
+}

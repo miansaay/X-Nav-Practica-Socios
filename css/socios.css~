@@ -1,0 +1,77 @@
+
+
+h1 {
+ color: white;
+
+}
+img {
+  width:60px;
+  height:60px;
+  border-radius: 30px;
+
+}
+#tabs {
+  width:600px;
+  margin-top: 150px;
+  /*margin-left: 300px;*/
+  margin-bottom: 150px;
+  
+}
+
+.ui-accordion-content {
+  height: 60px;
+}
+
+.navbar-inverse{
+background-color:#1E90FF;
+height:82px;
+min-width:980px;
+}
+
+#datepicker{
+ width: 215px;
+ margin-left: 5px;
+}
+
+#menu {
+  height: 450px;
+  margin-top: 150px;
+  margin-left: 5px;
+  width: 260px;
+  border-radius: 5px;
+}
+
+#perfil {
+ height: 195px;
+ width: 210px;
+ border-radius: 15px;
+ box-shadow: 0 0 10px #1E90FF;
+}
+
+#principal {
+  color:#1E90FF;
+}
+
+#footer{
+  text-align: center;
+  background-color:#1E90FF;
+  height:62px;
+  min-width:980px;
+}
+
+#info{
+  height: 610px;
+  margin-top: 150px;
+  width: 260px;
+  color:#1E90FF;
+  margin-left: 328px;
+  border-radius: 5px;
+  
+}
+
+#parts {
+ text-align: center;
+
+}
+
+
