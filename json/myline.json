@@ -1,7 +1,16 @@
 {
 "myline": [
-  { "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Cita médico", "contenido":"La cita es en la mañana a las 9am.", "fecha":"17/03/2014"},
-  { "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Series", "contenido":"Hoy enpieza una nueva temporada de Arrow.", "fecha":"13/03/2014" },
-  { "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Cine", "contenido":"¿Quedamos para ir al cine?.", "fecha":"21/03/2014" }
+  { "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Cita médico", "contenido":"Recordar, mi cita es en la mañana a las 9am.", "fecha":"13/03/2014"},
+  { "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Series", "contenido":"Hoy enpieza una nueva temporada de Arrow.", "fecha":"17/03/2014" },
+  { "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Cine", "contenido":"¿Quedamos para ir al cine?.", 
+"fecha":"21/03/2014" },
+{ "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Github", "contenido":"Podeis ver mis últimos proyectos en la rama gh-pages.", 
+"fecha":"22/03/2014" },
+{ "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"TFG", "contenido":"Danny, Antonio mañana Sábado por la tarde os explico el TFG que he elegido y con quien lo voy hacer.", 
+"fecha":"23/03/2014" },
+{ "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Expomanga", "contenido":"Dani, Jose tenemos que ir comprando las extradas del expomanga de este año que sino luego hay una larga cola (de un día).", 
+"fecha":"24/03/2014" },
+{ "autor":"Miguel", "avatar":"imagenes/Miguel.gif", "titulo":"Revancha!!!", "contenido":"Dani, Jose os espero este Sábado por la mañana para la revancha del último partido de ping-pong.", 
+"fecha":"24/03/2014" }
 ]
 }

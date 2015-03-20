@@ -2,6 +2,7 @@
 
 h1 {
  color: white;
+ margin-left: 20px;
 
 }
 img {
@@ -14,7 +15,7 @@ img {
   width:600px;
   margin-top: 150px;
   /*margin-left: 300px;*/
-  margin-bottom: 150px;
+  margin-bottom: 180px;
   
 }
 
@@ -69,9 +70,10 @@ min-width:980px;
   
 }
 
-/*#parts {
- text-align: center;
+#header{
+ margin-top: 10px;
+ margin-left: 150px;
 
-}*/
+}
 
 

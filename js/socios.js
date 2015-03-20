@@ -5,12 +5,12 @@ $(document).ready(function() {
   
    //Gestión JSON
    function upDate() {
-      console.log(num);
+      //console.log(num);
       $.getJSON("json/update.json", function(data) {
          //var hay_msjs= true;
          //if ($("#newmsg").val() == 0) {
-         console.log(Date.parse(data.update[0].fecha));
-         console.log(Date.parse($("#fecha" + num + "").html()));
+         //console.log(Date.parse(data.update[0].fecha));
+         //console.log(Date.parse($("#fecha" + num + "").html()));
          if (Date.parse(data.update[0].fecha) > Date.parse($("#fecha" + num +"").html())) { 
 	           $("#newmsg").html(data.update.length);
 
@@ -44,7 +44,7 @@ $(document).ready(function() {
       }
       $("#timeline").accordion();
       num = data.timeline.length - 1;
-      console.log(num);
+      //console.log(num);
       setInterval(function(){upDate()},12000);
       
       
@@ -70,7 +70,6 @@ $(document).ready(function() {
    $( "#datepicker" ).datepicker({
     inline: true
    });
-
 
 
 });
