@@ -1,38 +1,35 @@
 
-//var hay_msjs = false;
 var num;
+var hay_msjs = 0;
 $(document).ready(function() {
   
    //Gestión JSON
    function upDate() {
       //console.log(num);
       $.getJSON("json/update.json", function(data) {
-         //var hay_msjs= true;
-         //if ($("#newmsg").val() == 0) {
+        
          //console.log(Date.parse(data.update[0].fecha));
          //console.log(Date.parse($("#fecha" + num + "").html()));
          if (Date.parse(data.update[0].fecha) > Date.parse($("#fecha" + num +"").html())) { 
 	           $("#newmsg").html(data.update.length);
-
+            //console.log(hay_msjs);
 	           $("#vermsg").button().click(function() {
-	             $("#newmsg").html("0");
+              if (hay_msjs == 0) {
+	               $("#newmsg").html("0");
             
-             for (var i = 0; i < data.update.length; i++) {
-               $("#timeline").prepend("<div><img src='" + data.update[i].avatar + "'/> <span>" + data.update[i].autor 
-               + ", " + data.update[i].titulo + "</span> </div>" + "<div><span>" + data.update[i].contenido + "</p>" 
-               + "<span id='fecha" + (i + 4 + 1) + "'>" + data.update[i].fecha + "</span></div>");
-             }
-             $("#timeline").accordion("refresh");
-             num = num + data.update.length;
-             
+                for (var i = 0; i < data.update.length; i++) {
+                  $("#timeline").prepend("<div><img src='" + data.update[i].avatar + "'/> <span>" + data.update[i].autor 
+                  + ", " + data.update[i].titulo + "</span> </div>" + "<div><span>" + data.update[i].contenido + "</p>" 
+                  + "<span id='fecha" + (i + 4 + 1) + "'>" + data.update[i].fecha + "</span></div>");
+                }
+                $("#timeline").accordion("refresh");
+                num = num + data.update.length;
+              } 
+                hay_msjs = data.update.length;
            });
+         
         }
      });
-     //$("#vermsg").button().click(function() {
-     //if (hay_msjs == false) {
-       //$("#timeline").prepend("<div><p>No hay mensajes nuevos</p></div>"); 
-     //}
-     //});
    };
 
    $.getJSON("json/timeline.json", function(data) {
